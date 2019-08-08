@@ -25,6 +25,6 @@ int main() {
     
     /* Retorna 20 + 1 */
     
-    return i + 1;    
+    return localEax + 1;    
     
 }
