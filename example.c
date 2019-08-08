@@ -21,7 +21,7 @@ int main() {
     
     /* Pega o valor contido em %eax e guarda na variável localEax. */
     
-    register int localEax asm("eax");
+    register int localEax asm("%eax");
     
     /* Retorna 20 + 1 */
     
